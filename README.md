@@ -43,7 +43,7 @@
 
 DependDroid eases the process of checking and updating dependencies in multiple repositories. It fetches the `package.json` file of given git repositories and compares their dependency version with the specified one. It also displays the current versions and a boolean value representing whether the dependencies need an update, as output.
 
-<img src="images/result1.png" alt="" width="300" height="80">
+<img src="images/result1.PNG" alt="" width="80%">
 
 ### Built With
 
@@ -84,24 +84,38 @@ Make sure your npm is up to date.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+DepenDroid comes with two commands - `check` and `update` (under development). You can use the `help` command to view the tool details.
+<br>
 
+<img src="images/help.PNG" width="80%">
+<br>
+
+Both the commands can be viewed in detail using ``dependroid <command> --help``
+<br>
+
+<img src="images/check.PNG" width="80%">
+<br>
+
+The `check` command needs to be supplied two arguments - `path_to_csv` and `dependency_version`. The csv file is parsed using `jsontocsv` library and `package.json` from each repository is fetched using `request`. Versions are compared using `compare-versions` library.
+
+The following line of code can be used to test the `check` command.
+
+```sh
+dependroid check assets/test.csv axios@0.23.0
+```
+
+<img src="images/checkresult.PNG" width="80%">
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Ishan Khandelwal - [@twitter](https://twitter.com/@_ishawn_) - axil.ishan3@gmail.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
