@@ -84,13 +84,13 @@ Make sure your npm is up to date.
 DepenDroid comes with two commands - `check` and `update` (under development). You can use the `help` command to view the tool details.
 <br>
 
-<img src="images/help.PNG" width="80%">
+<img src="images/help.PNG">
 <br>
 
 Both the commands can be viewed in detail using ``dependroid <command> --help``
 <br>
 
-<img src="images/check.PNG" width="80%">
+<img src="images/check.PNG" width="85%">
 <br>
 
 The `check` command needs to be supplied two arguments - `path_to_csv` and `dependency_version`. The csv file is parsed using `jsontocsv` library and `package.json` from each repository is fetched using `request`. Versions are compared using `compare-versions` library.
