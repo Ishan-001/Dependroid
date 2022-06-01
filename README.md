@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   
-<img src="images/logo.png" alt="" width="80" height="80">
+<img src="images/logo.png" alt="" width="120" height="120">
 
 <h3 align="center">DepenDroid</h3>
 
@@ -43,7 +43,7 @@
 
 DependDroid eases the process of checking and updating dependencies in multiple repositories. It fetches the `package.json` file of given git repositories and compares their dependency version with the specified one. It also displays the current versions and a boolean value representing whether the dependencies need an update, as output.
 
-<img src="images/result1.png" alt="Logo" width="100%">
+<img src="images/result1.png" alt="" width="300" height="80">
 
 ### Built With
 
