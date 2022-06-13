@@ -116,12 +116,6 @@ Ishan Khandelwal - [@twitter](https://twitter.com/@_ishawn_) - axil.ishan3@gmail
 
 
 
-## Note to recruiters
-
-The first command is succesfully completed and tested. The second command is still under development which can be found in the `update-command` branch. Since the deadline is near I pushed whatever I worked upon for the second command in a different branch. I used `octakit` and `isomorphic-git` to automate git commands programatically. I couldn't test/debug the `update` command due to lack of time as i started working late on the project but will finish it as a personal challenge. This is only the second time that I've worked upon a node project so it was quite fun and challenging. Python was my first choice but I wanted to push myself and I think I made the right as I got to learn a lot due to this project. Lastly, thanks a lot for judging candidates based on actual development skills and not on cp/dsa :')
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
